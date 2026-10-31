@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>6</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="PAGINAINICIO">
     <widget class="QLabel" name="label_7">
@@ -37,7 +37,7 @@
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -80,6 +80,9 @@
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bienvenido al sistema&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
@@ -98,6 +101,9 @@
        <pointsize>10</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Administrar clientes, cuentas, movimientos y creditos &lt;/p&gt;&lt;p&gt;de forma segura y eficiente&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
@@ -108,12 +114,12 @@
        <x>10</x>
        <y>600</y>
        <width>971</width>
-       <height>341</height>
+       <height>311</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -135,7 +141,7 @@
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -376,6 +382,9 @@
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>CLIENTES</string>
      </property>
@@ -395,6 +404,9 @@
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CUENTA &lt;/p&gt;&lt;p&gt;BANCARIA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -416,6 +428,9 @@
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>DEPOSITO</string>
      </property>
@@ -435,6 +450,9 @@
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>RETIRO</string>
@@ -456,6 +474,9 @@
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>TRASFERENCIA</string>
      </property>
@@ -475,6 +496,9 @@
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PRESTAMOS Y &lt;/p&gt;&lt;p&gt;CREDITOS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -496,6 +520,9 @@
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PAGOS DE &lt;/p&gt;&lt;p&gt;CUOTAS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
@@ -516,6 +543,9 @@
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>HISTORIAL</string>
      </property>
@@ -535,6 +565,9 @@
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>CERRAR SESION</string>
@@ -638,7 +671,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -660,7 +693,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -707,6 +740,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Correo</string>
      </property>
@@ -726,6 +762,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>Código</string>
@@ -770,6 +809,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Identificación</string>
      </property>
@@ -799,6 +841,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>Nombre</string>
@@ -830,6 +875,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Dirección</string>
      </property>
@@ -850,6 +898,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Teléfono</string>
      </property>
@@ -869,6 +920,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>Fecha de nacimento</string>
@@ -909,6 +963,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>Apellido</string>
@@ -1174,7 +1231,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -1191,7 +1248,7 @@ font-weight: bold;</string>
        <x>450</x>
        <y>120</y>
        <width>571</width>
-       <height>850</height>
+       <height>951</height>
       </rect>
      </property>
      <property name="minimumSize">
@@ -1208,7 +1265,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -1344,7 +1401,7 @@ font-weight: bold;</string>
       <rect>
        <x>40</x>
        <y>210</y>
-       <width>241</width>
+       <width>361</width>
        <height>41</height>
       </rect>
      </property>
@@ -1367,7 +1424,7 @@ font-weight: bold;</string>
       <rect>
        <x>40</x>
        <y>340</y>
-       <width>241</width>
+       <width>351</width>
        <height>41</height>
       </rect>
      </property>
@@ -1405,6 +1462,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Cliente:</string>
      </property>
@@ -1424,6 +1484,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>Tipo de Cuenta:</string>
@@ -1445,6 +1508,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Numero de cuenta:</string>
      </property>
@@ -1465,6 +1531,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Saldo Inicial:</string>
      </property>
@@ -1474,7 +1543,7 @@ font-weight: bold;</string>
       <rect>
        <x>40</x>
        <y>450</y>
-       <width>241</width>
+       <width>351</width>
        <height>41</height>
       </rect>
      </property>
@@ -1490,7 +1559,7 @@ font-weight: bold;</string>
       <rect>
        <x>40</x>
        <y>560</y>
-       <width>241</width>
+       <width>351</width>
        <height>41</height>
       </rect>
      </property>
@@ -1648,7 +1717,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -1675,6 +1744,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>N. Cuenta:</string>
      </property>
@@ -1684,7 +1756,7 @@ font-weight: bold;</string>
       <rect>
        <x>20</x>
        <y>200</y>
-       <width>241</width>
+       <width>341</width>
        <height>41</height>
       </rect>
      </property>
@@ -1718,6 +1790,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Monto:</string>
      </property>
@@ -1727,7 +1802,7 @@ font-weight: bold;</string>
       <rect>
        <x>20</x>
        <y>330</y>
-       <width>241</width>
+       <width>341</width>
        <height>41</height>
       </rect>
      </property>
@@ -1740,7 +1815,7 @@ font-weight: bold;</string>
       <rect>
        <x>20</x>
        <y>440</y>
-       <width>231</width>
+       <width>341</width>
        <height>41</height>
       </rect>
      </property>
@@ -1760,6 +1835,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>Fecha:</string>
@@ -1781,8 +1859,11 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
-      <string>Concepto</string>
+      <string>Concepto:</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_13">
@@ -1790,7 +1871,7 @@ font-weight: bold;</string>
       <rect>
        <x>20</x>
        <y>550</y>
-       <width>241</width>
+       <width>341</width>
        <height>41</height>
       </rect>
      </property>
@@ -1874,7 +1955,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -2014,7 +2095,7 @@ font-weight: bold;</string>
       <rect>
        <x>30</x>
        <y>550</y>
-       <width>241</width>
+       <width>321</width>
        <height>41</height>
       </rect>
      </property>
@@ -2058,8 +2139,11 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
-      <string>Concepto</string>
+      <string>Concepto:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_24">
@@ -2108,7 +2192,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -2124,7 +2208,7 @@ font-weight: bold;</string>
       <rect>
        <x>30</x>
        <y>200</y>
-       <width>241</width>
+       <width>331</width>
        <height>41</height>
       </rect>
      </property>
@@ -2197,7 +2281,7 @@ font-weight: bold;</string>
       <rect>
        <x>30</x>
        <y>440</y>
-       <width>231</width>
+       <width>331</width>
        <height>41</height>
       </rect>
      </property>
@@ -2218,7 +2302,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -2245,6 +2329,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Fecha:</string>
      </property>
@@ -2264,6 +2351,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>N. Cuenta:</string>
@@ -2315,6 +2405,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Monto:</string>
      </property>
@@ -2324,7 +2417,7 @@ font-weight: bold;</string>
       <rect>
        <x>30</x>
        <y>330</y>
-       <width>241</width>
+       <width>331</width>
        <height>41</height>
       </rect>
      </property>
@@ -2407,7 +2500,7 @@ font-weight: bold;</string>
       <rect>
        <x>20</x>
        <y>660</y>
-       <width>241</width>
+       <width>321</width>
        <height>41</height>
       </rect>
      </property>
@@ -2451,16 +2544,19 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
-      <string>Concepto</string>
+      <string>Concepto:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_26">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>810</y>
-       <width>341</width>
+       <y>800</y>
+       <width>401</width>
        <height>51</height>
       </rect>
      </property>
@@ -2490,7 +2586,7 @@ font-weight: bold;</string>
       <rect>
        <x>0</x>
        <y>110</y>
-       <width>381</width>
+       <width>421</width>
        <height>841</height>
       </rect>
      </property>
@@ -2501,7 +2597,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -2517,7 +2613,7 @@ font-weight: bold;</string>
       <rect>
        <x>20</x>
        <y>200</y>
-       <width>241</width>
+       <width>341</width>
        <height>41</height>
       </rect>
      </property>
@@ -2538,9 +2634,9 @@ font-weight: bold;</string>
     <widget class="QTableWidget" name="tableWidget_5">
      <property name="geometry">
       <rect>
-       <x>400</x>
+       <x>440</x>
        <y>200</y>
-       <width>581</width>
+       <width>541</width>
        <height>701</height>
       </rect>
      </property>
@@ -2557,7 +2653,7 @@ font-weight: bold;</string>
       <bool>false</bool>
      </attribute>
      <attribute name="horizontalHeaderDefaultSectionSize">
-      <number>128</number>
+      <number>118</number>
      </attribute>
      <row>
       <property name="text">
@@ -2590,7 +2686,7 @@ font-weight: bold;</string>
       <rect>
        <x>20</x>
        <y>550</y>
-       <width>231</width>
+       <width>331</width>
        <height>41</height>
       </rect>
      </property>
@@ -2598,9 +2694,9 @@ font-weight: bold;</string>
     <widget class="QLabel" name="label_64">
      <property name="geometry">
       <rect>
-       <x>390</x>
+       <x>430</x>
        <y>110</y>
-       <width>601</width>
+       <width>561</width>
        <height>841</height>
       </rect>
      </property>
@@ -2611,7 +2707,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -2638,6 +2734,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Fecha:</string>
      </property>
@@ -2658,8 +2757,11 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
-      <string>Cuenta del origen</string>
+      <string>Cuenta del origen:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_27">
@@ -2667,7 +2769,7 @@ font-weight: bold;</string>
       <rect>
        <x>10</x>
        <y>740</y>
-       <width>341</width>
+       <width>401</width>
        <height>51</height>
       </rect>
      </property>
@@ -2708,6 +2810,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>Cuenta del destino:</string>
      </property>
@@ -2717,7 +2822,7 @@ font-weight: bold;</string>
       <rect>
        <x>20</x>
        <y>440</y>
-       <width>241</width>
+       <width>331</width>
        <height>41</height>
       </rect>
      </property>
@@ -2740,6 +2845,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>Monto:</string>
@@ -2770,7 +2878,7 @@ font-weight: bold;</string>
       <rect>
        <x>20</x>
        <y>340</y>
-       <width>241</width>
+       <width>331</width>
        <height>41</height>
       </rect>
      </property>
@@ -2857,7 +2965,7 @@ font-weight: bold;</string>
       </font>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>2</number>
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="title">
@@ -2899,6 +3007,9 @@ font-weight: bold;</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
+       </property>
        <property name="text">
         <string>CLIENTE:</string>
        </property>
@@ -2919,7 +3030,7 @@ font-weight: bold;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -2946,6 +3057,9 @@ font-weight: bold;</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
+       </property>
        <property name="text">
         <string>CUENTA DEL DESTINO:</string>
        </property>
@@ -2965,6 +3079,9 @@ font-weight: bold;</string>
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
        </property>
        <property name="text">
         <string>MONTO SOLICITADO:</string>
@@ -2986,6 +3103,9 @@ font-weight: bold;</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
+       </property>
        <property name="text">
         <string>PORCENTAJE DE INTERES (%):</string>
        </property>
@@ -3006,6 +3126,9 @@ font-weight: bold;</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
+       </property>
        <property name="text">
         <string>CANTIDAD DE CUOTAS:</string>
        </property>
@@ -3025,6 +3148,9 @@ font-weight: bold;</string>
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
        </property>
        <property name="text">
         <string>FECHA SOLICITADA:</string>
@@ -3073,7 +3199,7 @@ font-weight: bold;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -3188,7 +3314,7 @@ font-weight: bold;</string>
         <rect>
          <x>10</x>
          <y>600</y>
-         <width>361</width>
+         <width>411</width>
          <height>51</height>
         </rect>
        </property>
@@ -3218,7 +3344,7 @@ font-weight: bold;</string>
         <rect>
          <x>10</x>
          <y>650</y>
-         <width>361</width>
+         <width>411</width>
          <height>51</height>
         </rect>
        </property>
@@ -3248,7 +3374,7 @@ font-weight: bold;</string>
         <rect>
          <x>10</x>
          <y>700</y>
-         <width>361</width>
+         <width>411</width>
          <height>51</height>
         </rect>
        </property>
@@ -3308,6 +3434,9 @@ font-weight: bold;</string>
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
        </property>
        <property name="text">
         <string>Monto Solicitado:</string>
@@ -3410,6 +3539,9 @@ font-weight: bold;</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
+       </property>
        <property name="text">
         <string>(%)</string>
        </property>
@@ -3464,8 +3596,11 @@ font-weight: bold;</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
+       </property>
        <property name="text">
-        <string>Interés Total</string>
+        <string>Interés Total:</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_87">
@@ -3483,6 +3618,9 @@ font-weight: bold;</string>
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
        </property>
        <property name="text">
         <string>Monto total a pagar</string>
@@ -3504,6 +3642,9 @@ font-weight: bold;</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
+       </property>
        <property name="text">
         <string>Valor de cada cuota:</string>
        </property>
@@ -3523,6 +3664,9 @@ font-weight: bold;</string>
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
        </property>
        <property name="text">
         <string>Cantidad de cuotas:</string>
@@ -3712,7 +3856,7 @@ font-weight: bold;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -3787,6 +3931,9 @@ font-weight: bold;</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
+       </property>
        <property name="text">
         <string>CLIENTE:</string>
        </property>
@@ -3850,6 +3997,9 @@ font-weight: bold;</string>
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
        </property>
        <property name="text">
         <string>ESTADO:</string>
@@ -4046,6 +4196,9 @@ font-weight: bold;</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
+       </property>
        <property name="text">
         <string>CLIENTE:</string>
        </property>
@@ -4093,7 +4246,7 @@ font-weight: bold;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -4119,6 +4272,9 @@ font-weight: bold;</string>
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
        </property>
        <property name="text">
         <string>FECHA DESDE:</string>
@@ -4156,6 +4312,9 @@ font-weight: bold;</string>
          <weight>75</weight>
          <bold>true</bold>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #14220D;</string>
        </property>
        <property name="text">
         <string>FECHA HASTA:</string>
@@ -4363,7 +4522,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -4459,8 +4618,11 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
-      <string>N. CREDITO</string>
+      <string>N. CREDITO:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_107">
@@ -4478,6 +4640,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>MONTO:</string>
@@ -4498,6 +4663,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>FECHA:</string>
@@ -4568,6 +4736,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>METODO DE PAGO:</string>
@@ -4760,6 +4931,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>TOTAL DE CUOTAS:</string>
      </property>
@@ -4779,6 +4953,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>PAGADAS:</string>
@@ -4800,6 +4977,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>PENDIENTES:</string>
      </property>
@@ -4819,6 +4999,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>ATRASADAS:</string>
@@ -4946,7 +5129,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;
@@ -4992,6 +5175,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>FECHA DESDE:</string>
@@ -5052,6 +5238,9 @@ font-weight: bold;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
+     </property>
      <property name="text">
       <string>CLIENTE:</string>
      </property>
@@ -5088,6 +5277,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>FECHA DESDE:</string>
@@ -5145,6 +5337,9 @@ font-weight: bold;</string>
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #14220D;</string>
      </property>
      <property name="text">
       <string>TIPOS DE OPERACION:</string>
@@ -5333,7 +5528,7 @@ font-weight: bold;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QLabel {
-    background-color: AliceBlue;
+    background-color: #B8DCF0;
     color: #14220D;
     border: 2px solid #D1D5DB;
     border-radius: 12px;

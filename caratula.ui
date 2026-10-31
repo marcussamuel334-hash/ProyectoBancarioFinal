@@ -17,14 +17,14 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>0</y>
-     <width>331</width>
-     <height>51</height>
+     <y>220</y>
+     <width>881</width>
+     <height>141</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>26</pointsize>
+     <pointsize>28</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -36,9 +36,9 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>100</y>
-     <width>331</width>
+     <x>20</x>
+     <y>320</y>
+     <width>1041</width>
      <height>51</height>
     </rect>
    </property>
@@ -50,15 +50,15 @@
     </font>
    </property>
    <property name="text">
-    <string>MARCUS SAMUEL </string>
+    <string>MARCUS SAMUEL Santos De León   0906-26-13526</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>160</y>
-     <width>331</width>
+     <x>20</x>
+     <y>380</y>
+     <width>1091</width>
      <height>51</height>
     </rect>
    </property>
@@ -70,15 +70,15 @@
     </font>
    </property>
    <property name="text">
-    <string>Dafne</string>
+    <string>Dafne Jimena Juí Girón                    0906-26-19922</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>220</y>
-     <width>331</width>
+     <x>20</x>
+     <y>440</y>
+     <width>981</width>
      <height>51</height>
     </rect>
    </property>
@@ -90,15 +90,15 @@
     </font>
    </property>
    <property name="text">
-    <string>Ashley</string>
+    <string>Ashley Melissa Bonilla Morales        0906-26-909</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>280</y>
-     <width>331</width>
+     <x>20</x>
+     <y>500</y>
+     <width>1101</width>
      <height>51</height>
     </rect>
    </property>
@@ -110,14 +110,14 @@
     </font>
    </property>
    <property name="text">
-    <string>Reyes Hernandes</string>
+    <string>Eduardo Reyes Hernández               0906-26-7462</string>
    </property>
   </widget>
   <widget class="QPushButton" name="BTTCONTINUAR">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>530</y>
+     <x>500</x>
+     <y>630</y>
      <width>481</width>
      <height>131</height>
     </rect>
@@ -133,6 +133,78 @@
     <string>Siguiente</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1141</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: #B8DCF0;
+    color: #14220D;
+    border: 2px solid #D1D5DB;
+    border-radius: 12px;
+    padding: 10px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>-10</y>
+     <width>1141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;p&gt; Sistema de Administración Bancaria y Control &lt;/p&gt;de Créditos 
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>610</y>
+     <width>461</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;p&gt;Usuario: Admin&lt;/p&gt;Contraseña:12345678</string>
+   </property>
+  </widget>
+  <zorder>label_7</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>BTTCONTINUAR</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_8</zorder>
  </widget>
  <resources/>
  <connections/>
